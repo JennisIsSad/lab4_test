@@ -24,7 +24,7 @@ def add_author(request):
             return render_to_response("add_author.html",{"right":right})
     return render_to_response('add_author.html')
 def add_book(request):
-    word = ""
+    word = "           "
     if request.POST:
         post = request.POST
         isbn = post["isbn"]
