@@ -1,0 +1,7 @@
+name: mylib130310522
+
+version: 1
+
+libraries:
+- name: "django"
+  version: "1.8.3"
